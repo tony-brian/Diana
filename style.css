@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background:black;
+    color: azure;
+    
+}
+ul li {
+    display: flex;
+}
+#header {
+    width: 100%;
+    height: 100vh;
+    background-image: url(smiley\ emoji\ logo.png);
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    padding: 10px 10%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+    flex-wrap: wrap;
+    width: 84%;
+}
+.logo {
+    width: 80px;
+}
+
+
+
+nav ul li{
+    display: flex;
+    list-style:none ;
+    margin: 20px 40px;
+    
+}
+nav ul li a{
+    color: bisque;
+    text-decoration: none;
+    font-size: 40 pix;
+    transition: 0.5s;
+    display: flex;
+}
+
+
+nav ul li a:hover::after{
+    color: brown;
+}
+.detel{
+    margin-top: 13%;
+    margin-left: 8%;
+}
+
+.detel h1{
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: bisque;
+}
+
+span{
+    color: red;
+}
+ .detel p{
+    color: white;
+    line-height: 30px
+ }
+ .detel{
+    background: brown;
+    padding: 20px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    color: darkblue;
+    margin: 40px;
+    border-radius: 10px;
+    
+ }
+  
+    .images{
+        height: 45px;
+        width: 80x;
+        position:absolute;
+        bottom: 0%;
+        right: 100px;
+
+    }
+    .images img{
+        position: relative;
+        height: 100px; ;
+        left: 50%;
+        bottom: 0;
+        transform: translateX(-50%);
+        transition: bottom ls, left ls;
+    }
+    .images:hover .istock{
+        bottom: 40px;
+
+    }
+    .images:hover .boyree{
+        left: 45%;
+    }
+    
+
+
+
